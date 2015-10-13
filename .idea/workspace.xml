@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd95bfb-db42-4358-bee1-2537efe58b9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_styles/main.scss" afterPath="$PROJECT_DIR$/src/_styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yeogurt1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +18,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_scripts/main.js">
+      <file leaf-file-name="_bootstrap-custom.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14615385">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5987395">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,6 +58,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/_layouts/base.jade" />
         <option value="$PROJECT_DIR$/src/_scripts/main.js" />
+        <option value="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
+        <option value="$PROJECT_DIR$/src/_styles/main.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -215,7 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_scripts" />
+              <option name="myItemId" value="_styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,19 +234,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,8 +256,57 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.accepted" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="js.buildTools.gulp.node_interpreter" value="/usr/local/bin/node" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gulp.js.default">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="WIDTH" value="400" />
@@ -277,6 +327,51 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -300,6 +395,18 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -311,6 +418,12 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -320,6 +433,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="default" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments>--production</arguments>
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Gulp.js.default" />
+    </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -340,44 +473,66 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dcd95bfb-db42-4358-bee1-2537efe58b9f" name="Default" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1444450678702</created>
       <option name="number" value="Default" />
       <updated>1444450678702</updated>
       <workItem from="1444450682843" duration="2107000" />
-      <workItem from="1444675591153" duration="731000" />
+      <workItem from="1444675591153" duration="3776000" />
+      <workItem from="1444759572280" duration="2035000" />
     </task>
+    <task id="LOCAL-00001" summary="used browserify-shim and supported dropdown menu">
+      <created>1444709285229</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1444709285229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="browserfy all of bootstrap JS, to simplify maintenance">
+      <created>1444711123878</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1444711123878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="revert to individual bootstrap jquery plugins">
+      <created>1444762513363</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1444762513363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2838000" />
+    <option name="totallyTimeSpent" value="7918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.40460947" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35339308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.41584158" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5953905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5841584" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3559539" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -390,6 +545,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="used browserify-shim and supported dropdown menu" />
+    <MESSAGE value="browserfy all of bootstrap JS, to simplify maintenance" />
+    <MESSAGE value="revert to individual bootstrap jquery plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert to individual bootstrap jquery plugins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -405,29 +566,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scripts/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_scripts/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53629035">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.601145">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -435,37 +589,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3653846">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1444274107000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444274107000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444274107000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444274107000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444274107000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37898937">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;yeogurt1&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;bootstrap-sass&quot;: &quot;^3.3.5&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;lodash&quot;: &quot;~3.2.0&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;clean-deps&quot;: &quot;rimraf node_modules&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;node&quot;: &quot;&gt;=0.12.0&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;//&quot;: &quot;Entry files&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;source&quot;: &quot;src&quot;...}" />
-            <marker date="1444277182000" expanded="true" signature="-1:-1" placeholder="{&quot;js&quot;: &quot;main**.js&quot;...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.42515925">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14615385">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.41468254">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1444762415000" expanded="false" signature="-1:-1" placeholder="//..." />
+            <marker date="1444762415000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20042194">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52109706">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2805907">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;yeogurt1&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;bootstrap-sass&quot;: &quot;^3.3.5&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;autoprefixer-core&quot;: &quot;~5.2.0&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;clean-deps&quot;: &quot;rimraf node_modules&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;node&quot;: &quot;&gt;=0.12.0&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;transition&quot;: &quot;bootstrap-sass/assets/javascripts/bootstrap/transition&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;exports&quot;: null...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;exports&quot;: null...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;exports&quot;: null...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;//&quot;: &quot;Entry files&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;source&quot;: &quot;src&quot;...}" />
+            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;js&quot;: &quot;main**.js&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19957983">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5987395">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
