@@ -5,10 +5,8 @@
 
 var $ = require('jquery');
 var Link = require('../_modules/link/link');
-window.$ = window.jQuery = $;
-require('transition');
-require('collapse');
-require('dropdown');
+window.$ = window.jQuery = $;   // still required, despite browserify-shim
+require('bootstrap');
 
 $(function() {
   new Link(); // Activate Link modules logic

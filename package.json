@@ -54,20 +54,10 @@
     "transform": ["browserify-shim"]
   },
   "browser": {
-    "transition": "bootstrap-sass/assets/javascripts/bootstrap/transition",
-    "collapse": "bootstrap-sass/assets/javascripts/bootstrap/collapse",
-    "dropdown": "bootstrap-sass/assets/javascripts/bootstrap/dropdown"
+    "bootstrap": "bootstrap-sass/assets/javascripts/bootstrap"
   },
   "browserify-shim": {
-    "transition": {
-      "exports": null,
-      "depends": "jquery:$"
-    },
-    "collapse": {
-      "exports": null,
-      "depends": "jquery:$"
-    },
-    "dropdown": {
+    "bootstrap": {
       "exports": null,
       "depends": "jquery:$"
     }
