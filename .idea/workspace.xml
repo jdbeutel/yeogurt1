@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd95bfb-db42-4358-bee1-2537efe58b9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_styles/main.scss" afterPath="$PROJECT_DIR$/src/_styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" afterPath="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yeogurt1.iws" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="_bootstrap-custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5987395">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6785714">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,9 +56,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/_layouts/base.jade" />
         <option value="$PROJECT_DIR$/src/_scripts/main.js" />
-        <option value="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
-        <option value="$PROJECT_DIR$/src/_styles/main.scss" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/_styles/main.scss" />
+        <option value="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
       </list>
     </option>
   </component>
@@ -221,20 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yeogurt1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yeogurt1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,7 +463,7 @@
       <updated>1444450678702</updated>
       <workItem from="1444450682843" duration="2107000" />
       <workItem from="1444675591153" duration="3776000" />
-      <workItem from="1444759572280" duration="2035000" />
+      <workItem from="1444759572280" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="used browserify-shim and supported dropdown menu">
       <created>1444709285229</created>
@@ -499,11 +483,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444762513363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="uninstalled normalize.css and started customizing bootstrap scss.&#10;&#10;I think bootstrap already has normalize, so I removed the redundant one that I added (based on the Yeogurt example).">
+      <created>1444764236599</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1444764236599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7918000" />
+    <option name="totallyTimeSpent" value="9148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -550,7 +540,8 @@
     <MESSAGE value="used browserify-shim and supported dropdown menu" />
     <MESSAGE value="browserfy all of bootstrap JS, to simplify maintenance" />
     <MESSAGE value="revert to individual bootstrap jquery plugins" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert to individual bootstrap jquery plugins" />
+    <MESSAGE value="uninstalled normalize.css and started customizing bootstrap scss.&#10;&#10;I think bootstrap already has normalize, so I removed the redundant one that I added (based on the Yeogurt example)." />
+    <option name="LAST_COMMIT_MESSAGE" value="uninstalled normalize.css and started customizing bootstrap scss.&#10;&#10;I think bootstrap already has normalize, so I removed the redundant one that I added (based on the Yeogurt example)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -729,22 +720,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19957983">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.040084388">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444763986000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5987395">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6785714">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
