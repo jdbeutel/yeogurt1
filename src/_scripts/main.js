@@ -6,8 +6,9 @@
 var $ = require('jquery');
 var Link = require('../_modules/link/link');
 window.$ = window.jQuery = $;
-require('../../node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition')
-require('../../node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse')
+require('transition');
+require('collapse');
+require('dropdown');
 
 $(function() {
   new Link(); // Activate Link modules logic
