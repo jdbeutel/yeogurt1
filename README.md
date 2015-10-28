@@ -5,8 +5,15 @@ Generated on 2015-10-08 using
 
 ## Description
 
-This is an example readme file.
-Describe your site/app here.
+This is just a hello-world
+adding jQuery 1 and Bootstrap 3 SASS to Yeogurt,
+with a navbar in the layout.
+I included only the Bootstrap SASS and jQuery plugins
+that I am using, to further minimize the resource files,
+although I didn't try to include only partial jQuery.
+I also tried browserify-shim for Bootstrap's jQuery plugins,
+but I couldn't get them working as modules,
+so jQuery is still global.
 
 ## Technologies used
 

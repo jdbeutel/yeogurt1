@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd95bfb-db42-4358-bee1-2537efe58b9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" afterPath="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yeogurt1.iws" />
@@ -26,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_bootstrap-custom.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6785714">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35849056">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,6 +60,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/_styles/main.scss" />
         <option value="$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -172,6 +175,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,33 +206,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yeogurt1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yeogurt1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_styles" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,6 +228,7 @@
     <property name="js.buildTools.gulp.node_interpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -457,13 +443,18 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dcd95bfb-db42-4358-bee1-2537efe58b9f" name="Default" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1444450678702</created>
       <option name="number" value="Default" />
       <updated>1444450678702</updated>
       <workItem from="1444450682843" duration="2107000" />
       <workItem from="1444675591153" duration="3776000" />
-      <workItem from="1444759572280" duration="3265000" />
+      <workItem from="1444759572280" duration="3766000" />
+      <workItem from="1446007899987" duration="583000" />
+      <workItem from="1446008501290" duration="39000" />
+      <workItem from="1446008553753" duration="908000" />
+      <workItem from="1446010517831" duration="1436000" />
+      <workItem from="1446057643701" duration="1560000" />
+      <workItem from="1446068750186" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="used browserify-shim and supported dropdown menu">
       <created>1444709285229</created>
@@ -489,11 +480,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444764236599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="limited bootstrap custom scss, to reduce built main.css from 120K to 70K">
+      <created>1444765464604</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1444765464604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9148000" />
+    <option name="totallyTimeSpent" value="14228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -503,26 +500,26 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35339308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.41584158" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49039692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.43678162" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5841584" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3559539" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22103004" sideWeight="0.5632184" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3550447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -541,65 +538,57 @@
     <MESSAGE value="browserfy all of bootstrap JS, to simplify maintenance" />
     <MESSAGE value="revert to individual bootstrap jquery plugins" />
     <MESSAGE value="uninstalled normalize.css and started customizing bootstrap scss.&#10;&#10;I think bootstrap already has normalize, so I removed the redundant one that I added (based on the Yeogurt example)." />
-    <option name="LAST_COMMIT_MESSAGE" value="uninstalled normalize.css and started customizing bootstrap scss.&#10;&#10;I think bootstrap already has normalize, so I removed the redundant one that I added (based on the Yeogurt example)." />
+    <MESSAGE value="limited bootstrap custom scss, to reduce built main.css from 120K to 70K" />
+    <option name="LAST_COMMIT_MESSAGE" value="limited bootstrap custom scss, to reduce built main.css from 120K to 70K" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75319695">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/gulp/browserify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="36" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_scripts/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53629035">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jade">
+    <entry file="file://$PROJECT_DIR$/src/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3653846">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42515925">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41468254">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <marker date="1444762415000" expanded="false" signature="-1:-1" placeholder="//..." />
-            <marker date="1444762415000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -607,14 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20042194">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434472175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,67 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434475027000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,52 +610,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52109706">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2805907">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;yeogurt1&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;bootstrap-sass&quot;: &quot;^3.3.5&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;autoprefixer-core&quot;: &quot;~5.2.0&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;clean-deps&quot;: &quot;rimraf node_modules&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;node&quot;: &quot;&gt;=0.12.0&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;transition&quot;: &quot;bootstrap-sass/assets/javascripts/bootstrap/transition&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;exports&quot;: null...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;exports&quot;: null...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;exports&quot;: null...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;//&quot;: &quot;Entry files&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;source&quot;: &quot;src&quot;...}" />
-            <marker date="1444764039000" expanded="true" signature="-1:-1" placeholder="{&quot;js&quot;: &quot;main**.js&quot;...}" />
-          </folding>
+        <state vertical-scroll-proportion="-1.6743697">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_styles/main.scss">
+    <entry file="file://$PROJECT_DIR$/build/README.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040084388">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444765065000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24296676">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_styles/_bootstrap-custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6785714">
+        <state vertical-scroll-proportion="0.42838195">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.050331127">
+          <caret line="0" column="193" selection-start-line="0" selection-start-column="193" selection-end-line="0" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13382353">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/browserify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3641026">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scripts/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="-1.5089743">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53629035">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025265958">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21675532">
+          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.52644837">
+            <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35849056">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
